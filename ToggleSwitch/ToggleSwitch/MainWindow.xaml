@@ -1,0 +1,14 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToggleSwitch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <local:ToggleButton x:Name="Bu" HorizontalAlignment="Center" Height="51" Margin="196,258,197,10" VerticalAlignment="Center" Width="124" MouseLeftButtonDown="Bu_MouseLeftButtonDown"/>
+        <Ellipse x:Name="Light" Fill="#FF0C0C0B" Height="130" Margin="100,80" VerticalAlignment="Center" Width="130" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Window>
